@@ -40,3 +40,7 @@ The script will output the results of the connection attempts from both Docker c
 -   The container based on Alpine 3.19 is expected to fail to connect due to the issue with the combination of extensions.
 
 > You can comment out the `swoole` extension install line in Dockerfile and observe it work.
+
+Reported at
+
+-   https://github.com/swoole/swoole-src/issues/5313
